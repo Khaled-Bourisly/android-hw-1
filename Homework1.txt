@@ -1,0 +1,17 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println(blah(17,"Khaled"));
+        System.out.println(blah(18,"Bassam"));
+        System.out.println(blah(25,"Abdulla"));
+
+        
+     }
+     public static String blah(int a , String n){
+         if (a >=18)
+                 System.out.println("congratulations "+ n + " you can get a license" );
+        else if (a < 18)
+        System.out.println("Sorry "+ n + " you are too young get a license" );
+        return "";
+     }
+}
